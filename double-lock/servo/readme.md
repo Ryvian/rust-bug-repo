@@ -1,6 +1,7 @@
 ## bugs
 
 - servo#13388
+
 (commit 6fbd2aa5b7628bd47971806ddf438cd350a60bee fixes the same bug)
 
 bug location:
@@ -12,6 +13,7 @@ bug location:
 ```
 
 - 2952ccfae2e4883efc4886988dcf17d07d89f66c
+
 bug location:
 `components/script/dom/cssrulelist.rs`
 ```
@@ -20,6 +22,7 @@ bug location:
 ```
  
 - servo#11129
+
 bug location:
 `components/net/http_loader.rs`
 ```
@@ -28,6 +31,7 @@ bug location:
 ```
 
 - fdb1e511bde3fa9e3b3c524a07687dc52131fa0b 
+
 bug location:
 `components/constellation/constellation.rs`
 ```
@@ -43,7 +47,7 @@ bug location:
 
 ```
 
-(bug related to 1e380137831eaf94a1f602c9d8dfae08f10893fa is not reporduced here because of API change)
+- (bug related to 1e380137831eaf94a1f602c9d8dfae08f10893fa is not reporduced here because of API change)
 
 ## misc
 Before building, run:
