@@ -19,5 +19,6 @@ bug location:
 `components/pd_client/src/util.rs`
 ```
 350         match func(&client.inner.rl().client_stub).map_err(Error::Grpc) {
+200             let mut inner = self.inner.wl();
 
 ```
