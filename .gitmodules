@@ -1,0 +1,3 @@
+[submodule "double-lock/openethereum"]
+	path = double-lock/openethereum
+	url = https://github.com/Ryvian/openethereum
